@@ -1,0 +1,101 @@
+Reset hub:
+
+[ 1815.035727] smsc95xx 1-1.4.1:1.0 eth1: Failed to read reg index 0x00000114: -110
+[ 1815.035750] smsc95xx 1-1.4.1:1.0 eth1: Error reading MII_ACCESS
+[ 1815.035767] smsc95xx 1-1.4.1:1.0 eth1: MII is busy in smsc95xx_mdio_read
+[ 1815.035784] smsc95xx 1-1.4.1:1.0 eth1: Failed to read MII_BMSR
+[ 4131.028534] uvcvideo: Non-zero status (-71) in video completion handler.
+[ 4131.066556] uvcvideo: Non-zero status (-71) in video completion handler.
+[ 4131.103517] uvcvideo: Non-zero status (-71) in video completion handler.
+[ 4131.141542] uvcvideo: Non-zero status (-71) in video completion handler.
+[ 4131.179494] uvcvideo: Non-zero status (-71) in video completion handler.
+[ 4132.122555] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.159528] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.196529] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.233526] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.270987] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.276338] usb 1-1-port1: Cannot enable. Maybe the USB cable is bad?
+[ 4132.315524] usb 1-1-port1: cannot disable (err = -71)
+[ 4132.352538] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.389540] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.426620] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.463481] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.500548] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.505945] usb 1-1-port1: Cannot enable. Maybe the USB cable is bad?
+[ 4132.545529] usb 1-1-port1: cannot disable (err = -71)
+[ 4132.582619] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.619585] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.656532] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.693548] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.730543] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.735953] usb 1-1-port1: Cannot enable. Maybe the USB cable is bad?
+[ 4132.775522] usb 1-1-port1: cannot disable (err = -71)
+[ 4132.812527] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.849527] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.886612] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.923597] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.960524] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.965452] usb 1-1-port1: Cannot enable. Maybe the USB cable is bad?
+[ 4133.004749] usb 1-1-port1: cannot disable (err = -71)
+[ 4133.041537] usb 1-1-port1: cannot disable (err = -71)
+[ 4133.079493] hub 1-1:1.0: hub_ext_port_status failed (err = -71)
+[ 4342.489216] usb 1-1: USB disconnect, device number 2
+[ 4342.494505] usb 1-1.1: USB disconnect, device number 3
+[ 4342.503306] usb 1-1.4: USB disconnect, device number 18
+[ 4342.508727] usb 1-1.4.1: USB disconnect, device number 19
+[ 4342.519034] smsc95xx 1-1.4.1:1.0 eth1: unregister 'smsc95xx' usb-ci_hdrc.0-1.4.1, smsc95xx USB 2.0 Ethernet
+[ 4342.529090] smsc95xx 1-1.4.1:1.0 eth1: hardware isn't capable of remote wakeup
+[ 4342.555435] usb 1-1.4.2: USB disconnect, device number 20
+[ 4342.627928] usb 1-1.4.3: USB disconnect, device number 21
+[ 4342.637393] ftdi_sio ttyUSB0: FTDI USB Serial Device converter now disconnected from ttyUSB0
+[ 4342.646205] ftdi_sio 1-1.4.3:1.0: device disconnected
+[ 4344.770571] usb 1-1: new high-speed USB device number 22 using ci_hdrc
+[ 4344.931417] usb 1-1: New USB device found, idVendor=0424, idProduct=2514, bcdDevice= b.b3
+[ 4344.939720] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[ 4344.948526] hub 1-1:1.0: USB hub found
+[ 4344.953542] hub 1-1:1.0: 4 ports detected
+[ 4345.246593] usb 1-1.1: new full-speed USB device number 23 using ci_hdrc
+[ 4345.361905] usb 1-1.1: New USB device found, idVendor=04f3, idProduct=249f, bcdDevice=57.13
+[ 4345.370375] usb 1-1.1: New USB device strings: Mfr=4, Product=14, SerialNumber=0
+[ 4345.379101] usb 1-1.1: Product: Touchscreen
+[ 4345.384046] usb 1-1.1: Manufacturer: ELAN
+[ 4345.412794] input: ELAN Touchscreen as /devices/soc0/soc/2100000.aips-bus/2184200.usb/ci_hdrc.0/usb1/1-1/1-1.1/1-1.1:1.0/0003:04F3:249F.0007/input/input76
+[ 4345.428114] hid-multitouch 0003:04F3:249F.0007: input,hiddev0,hidraw0: USB HID v1.10 Device [ELAN Touchscreen] on usb-ci_hdrc.0-1.1/input0
+[ 4345.522592] usb 1-1.4: new high-speed USB device number 24 using ci_hdrc
+[ 4345.639411] usb 1-1.4: New USB device found, idVendor=0424, idProduct=9514, bcdDevice= 2.00
+[ 4345.647881] usb 1-1.4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[ 4345.656508] hub 1-1.4:1.0: USB hub found
+[ 4345.661757] hub 1-1.4:1.0: 5 ports detected
+[ 4345.954588] usb 1-1.4.1: new high-speed USB device number 25 using ci_hdrc
+[ 4346.067420] usb 1-1.4.1: New USB device found, idVendor=0424, idProduct=ec00, bcdDevice= 2.00
+[ 4346.076079] usb 1-1.4.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[ 4346.088148] smsc95xx v1.0.6
+[ 4346.165405] smsc95xx 1-1.4.1:1.0 eth1: register 'smsc95xx' at usb-ci_hdrc.0-1.4.1, smsc95xx USB 2.0 Ethernet, be:32:34:2d:2b:49
+[ 4346.254518] usb 1-1.4.2: new high-speed USB device number 26 using ci_hdrc
+[ 4346.412176] usb 1-1.4.2: New USB device found, idVendor=05a3, idProduct=8830, bcdDevice= 1.00
+[ 4346.420877] usb 1-1.4.2: New USB device strings: Mfr=2, Product=1, SerialNumber=3
+[ 4346.429113] usb 1-1.4.2: Product: USB 2.0 Camera
+[ 4346.434070] usb 1-1.4.2: Manufacturer: Sonix Technology Co., Ltd.
+[ 4346.440483] usb 1-1.4.2: SerialNumber: SN0179
+[ 4346.448686] uvcvideo: Found UVC 1.00 device USB 2.0 Camera (05a3:8830)
+[ 4346.456031] smsc95xx 1-1.4.1:1.0 eth1: hardware isn't capable of remote wakeup
+[ 4346.474761] uvcvideo 1-1.4.2:1.0: Entity type for entity Extension 4 was not initialized!
+[ 4346.483231] uvcvideo 1-1.4.2:1.0: Entity type for entity Extension 3 was not initialized!
+[ 4346.491665] uvcvideo 1-1.4.2:1.0: Entity type for entity Processing 2 was not initialized!
+[ 4346.500281] uvcvideo 1-1.4.2:1.0: Entity type for entity Camera 1 was not initialized!
+[ 4346.509903] input: USB 2.0 Camera: HD USB Camera as /devices/soc0/soc/2100000.aips-bus/2184200.usb/ci_hdrc.0/usb1/1-1/1-1.4/1-1.4.2/1-1.4.2:1.0/input/input80
+[ 4346.602569] usb 1-1.4.3: new full-speed USB device number 27 using ci_hdrc
+[ 4346.742375] usb 1-1.4.3: New USB device found, idVendor=0403, idProduct=6015, bcdDevice=10.00
+[ 4346.751346] usb 1-1.4.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 4346.769167] usb 1-1.4.3: Product: FT231X USB UART
+[ 4346.779557] usb 1-1.4.3: Manufacturer: FTDI
+[ 4346.784979] usb 1-1.4.3: SerialNumber: DN05JEUB
+[ 4346.793609] ftdi_sio 1-1.4.3:1.0: FTDI USB Serial Device converter detected
+[ 4346.803083] usb 1-1.4.3: Detected FT-X
+[ 4346.810779] usb 1-1.4.3: FTDI USB Serial Device converter now attached to ttyUSB0
+[ 4347.943601] IPv6: ADDRCONF(NETDEV_CHANGE): eth1: link becomes ready
+[ 4347.951917] smsc95xx 1-1.4.1:1.0 eth1: link up, 100Mbps, full-duplex, lpa 0xC5E1
+[ 4348.239655] smsc95xx 1-1.4.1:1.0 eth1: link down
+[ 4352.025786] smsc95xx 1-1.4.1:1.0 eth1: link up, 100Mbps, full-duplex, lpa 0xC5E1
+[ 4355.327532] smsc95xx 1-1.4.1:1.0 eth1: link down
+[ 4358.225785] smsc95xx 1-1.4.1:1.0 eth1: link up, 100Mbps, full-duplex, lpa 0xC5E1

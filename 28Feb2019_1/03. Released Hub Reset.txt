@@ -1,0 +1,13 @@
+0x020CA060 @ 1: 0x0000400A
+0x020CA060 @ 2: 0x00000064
+0x020CA060 @ 3: 0x10802104
+0x020CA060 @ 4: 0x00010001 
+0x020CA060 @ 5: 0x01011101
+0x020CA060 @ 6: 0x00000101
+0x020CA060 @ 7: 0x07000010
+0x020CA060 @ 8: 0x81000001
+
+[ 1815.035727] smsc95xx 1-1.4.1:1.0 eth1: Failed to read reg index 0x00000114: -110
+[ 1815.035750] smsc95xx 1-1.4.1:1.0 eth1: Error reading MII_ACCESS
+[ 1815.035767] smsc95xx 1-1.4.1:1.0 eth1: MII is busy in smsc95xx_mdio_read
+[ 1815.035784] smsc95xx 1-1.4.1:1.0 eth1: Failed to read MII_BMSR

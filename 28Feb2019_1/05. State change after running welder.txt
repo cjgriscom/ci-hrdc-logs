@@ -1,0 +1,56 @@
+Ran the arc welder again to generate more noise, host changes state.
+
+0x020CA060 @ 1: 0x0000FFFF
+0x020CA060 @ 2: 0x00140060
+0x020CA060 @ 3: 0x10820104
+0x020CA060 @ 4: 0x00010001
+0x020CA060 @ 5: 0x01011101
+0x020CA060 @ 6: 0x00000101
+0x020CA060 @ 7: 0x02100010
+0x020CA060 @ 8: 0x11000001
+
+USBINTR reg: 00000037
+USBSTS reg: 000cc083
+USBMODE reg: 00000013
+USBCMD reg: 00010035
+PORTSC reg: 10001801
+
+[ 1815.035727] smsc95xx 1-1.4.1:1.0 eth1: Failed to read reg index 0x00000114: -110
+[ 1815.035750] smsc95xx 1-1.4.1:1.0 eth1: Error reading MII_ACCESS
+[ 1815.035767] smsc95xx 1-1.4.1:1.0 eth1: MII is busy in smsc95xx_mdio_read
+[ 1815.035784] smsc95xx 1-1.4.1:1.0 eth1: Failed to read MII_BMSR
+[ 4131.028534] uvcvideo: Non-zero status (-71) in video completion handler.
+[ 4131.066556] uvcvideo: Non-zero status (-71) in video completion handler.
+[ 4131.103517] uvcvideo: Non-zero status (-71) in video completion handler.
+[ 4131.141542] uvcvideo: Non-zero status (-71) in video completion handler.
+[ 4131.179494] uvcvideo: Non-zero status (-71) in video completion handler.
+[ 4132.122555] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.159528] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.196529] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.233526] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.270987] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.276338] usb 1-1-port1: Cannot enable. Maybe the USB cable is bad?
+[ 4132.315524] usb 1-1-port1: cannot disable (err = -71)
+[ 4132.352538] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.389540] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.426620] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.463481] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.500548] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.505945] usb 1-1-port1: Cannot enable. Maybe the USB cable is bad?
+[ 4132.545529] usb 1-1-port1: cannot disable (err = -71)
+[ 4132.582619] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.619585] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.656532] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.693548] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.730543] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.735953] usb 1-1-port1: Cannot enable. Maybe the USB cable is bad?
+[ 4132.775522] usb 1-1-port1: cannot disable (err = -71)
+[ 4132.812527] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.849527] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.886612] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.923597] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.960524] usb 1-1-port1: cannot reset (err = -71)
+[ 4132.965452] usb 1-1-port1: Cannot enable. Maybe the USB cable is bad?
+[ 4133.004749] usb 1-1-port1: cannot disable (err = -71)
+[ 4133.041537] usb 1-1-port1: cannot disable (err = -71)
+[ 4133.079493] hub 1-1:1.0: hub_ext_port_status failed (err = -71)
